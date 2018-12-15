@@ -1,2 +1,2 @@
-# test-project
-Just testing some stuff
+# Sample Billboard Charts
+Just messing with billboard.js chart configurations.
