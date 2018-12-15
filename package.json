@@ -1,7 +1,10 @@
 {
   "name": "test-project",
-  "version": "1.0.0",
   "description": "Just testing some stuff",
+  "version": "1.0.0",
+  "keywords": [],
+  "homepage": "https://github.com/Cyphur/test-project#readme",
+  "author": "Rob Pickering",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,17 +13,20 @@
     "type": "git",
     "url": "git+https://github.com/Cyphur/test-project.git"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Cyphur/test-project/issues"
   },
-  "homepage": "https://github.com/Cyphur/test-project#readme",
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.0",
+    "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.4",
+    "eslint": "^5.10.0",
+    "eslint-config-babel": "^8.0.2",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "prettier": "^1.15.3",
     "webpack": "^4.27.1"
   },
   "dependencies": {
